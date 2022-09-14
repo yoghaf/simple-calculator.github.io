@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.flex-column-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: right;
+}
+.tampilan {
+  color: #f50653;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #faf0f6;
+  font-size: 2em;
+}
+.flex-row-card {
+  display: flex;
+}
+.tombol {
+  flex-basis: 25%;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 20px;
+  color: #faf0f6;
+  border: 1px solid #faf0f6;
+  background: #f50653;
+  cursor: pointer;
+}
+.double {
+  flex-basis: 50%;
+}
