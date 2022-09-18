@@ -4,7 +4,7 @@
 body {
   font-family: sans-serif;
 }
-.flex-column-card {
+.flex-column {
   display: flex;
   flex-direction: column;
   max-width: 400px;
@@ -31,6 +31,12 @@ body {
   background: #f50653;
   cursor: pointer;
 }
-.double {
-  flex-basis: 50%;
+.full {
+  flex-basis: 100%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 50px;
 }

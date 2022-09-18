@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="flex-column-card">
+    <div class="flex-column card">
       <div class="tampilan">
-        <h1 id="tampilan-angka">0</h1>
+        <h1 id="tampilanangka">0</h1>
       </div>
       <div class="flex-row-card">
         <div class="tombol">1</div>
@@ -22,19 +22,24 @@
         <div class="tombol">4</div>
         <div class="tombol">5</div>
         <div class="tombol">6</div>
-        <div class="tombol negative">-/+</div>
+        <div class="tombol operator">-</div>
       </div>
       <div class="flex-row-card">
         <div class="tombol">7</div>
         <div class="tombol">8</div>
         <div class="tombol">9</div>
-        <div class="tombol negative">-/+</div>
+        <div class="tombol operator">+</div>
       </div>
       <div class="flex-row-card">
-        <div class="tombol">Clr</div>
+        <div class="tombol clear">Clr</div>
         <div class="tombol">0</div>
-        <div class="tombol equal double">=</div>
+        <div class="tombol operator">*</div>
+        <div class="tombol operator">/</div>
+      </div>
+      <div class="flex-row-card">
+        <div class="tombol equal full">=</div>
       </div>
     </div>
+    <script src="calculator.js"></script>
   </body>
 </html>
